@@ -285,6 +285,10 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  .nav-link-css{
+    color: #000 !important;
+  }
+
    .display-mob{
     display: none;
   }
@@ -333,6 +337,10 @@ body {
   .jumbotron-btn {
     font-size: 16px !important;
   }
+
+.nav-link-css{
+  color: #000 !important;
+}
 
  .display-desk{
     display: initial;
