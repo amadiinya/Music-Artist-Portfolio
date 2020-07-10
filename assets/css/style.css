@@ -338,6 +338,14 @@ body {
     font-size: 16px !important;
   }
 
+  .avatar-img{
+    margin-right: 2px;
+  }
+
+.la-la-mobile{
+  font-size: 2rem;
+}
+
 .nav-link-css{
   color: #000 !important;
 }
