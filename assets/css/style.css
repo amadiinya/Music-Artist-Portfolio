@@ -1,6 +1,52 @@
 /* Upcoming Concert */
 
 /* Form */
+
+/*
+
+.card-img{
+  background-image: url(./assets/images/Rectangle 45.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10rem;
+  background-attachment: fixed;
+}
+
+Work on This
+
+*/
+
+
+
+
+
+
+
+.card-border-btn{
+  position: absolute;
+  bottom: 70px;
+  left: 0;
+  color: #000;
+  background-color: #E6B034;
+  width: 70px;
+  height: 25px;
+  border-radius: 0 100px 100px 0;
+  border: none;
+}
+
+.card-border-btn-lg{
+  position: absolute;
+  bottom: 70px;
+  left: 0;
+  color: #000;
+  background-color: #E6B034;
+  width: 150px;
+  height: 25px;
+  border-radius: 0 100px 100px 0;
+  border: none;
+}
+
+
 .foooter-text{
   font-family: Raleway;
   font-style: normal;
