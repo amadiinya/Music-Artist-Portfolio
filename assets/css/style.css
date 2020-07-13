@@ -34,6 +34,10 @@ Work on This
   border: none;
 }
 
+.Events-mobile{
+  display: none;
+}
+
 .card-border-btn-lg{
   position: absolute;
   bottom: 70px;
@@ -343,6 +347,10 @@ body {
     color: #000 !important;
   }
 
+  .Events-desktop{
+    display: none;
+  }
+
 .head-text-color{
   font-size: 2rem;
   
@@ -383,6 +391,9 @@ body {
     display: none;
   }
 
+.Events-mobile{
+  display: initial;
+}
   .display-desk{
     display: initial;
   }
@@ -428,8 +439,16 @@ body {
     font-size: 16px !important;
   }
 
+  .Events-desktop{
+    display: none;
+  }
+
+  .Events-mobile{
+    display: initial;
+  }
+
    .jumbotron-text {
-    font-size: 12px;
+    font-size: 11px;
 
   }
 
@@ -527,6 +546,8 @@ section {
     padding-bottom: 0.2rem;
     background-color: #fff;
     color: #000;
+    padding-bottom: 1rem;
+
 }
 .wrap {
     display: flex;
