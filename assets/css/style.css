@@ -376,7 +376,7 @@ body {
 
 .buy-ticket{
   grid-area: c;
- 
+  font-size: 10px;
 
 }
 .picture img{
