@@ -117,7 +117,8 @@ form {
 }
 
 .up-con{
-  background: rgba(230, 176, 52, 0.07);
+  background: rgba(196, 196, 196, 0.1);
+
 }
 
 #Album .card {
@@ -184,8 +185,15 @@ body {
   border-radius: 100px;
 }
 
+.card-border-line{
+  border: 1px solid #E6B034;
+  box-sizing: border-box;
+  border-radius: 20px;
+
+}
+
 .headings{
-  color: #E6B034;
+  color: #000;
   font-family: Raleway;
   font-style: normal;
   font-weight: normal;
@@ -382,6 +390,31 @@ body {
   .jumbotron-btn {
     font-size: 16px !important;
   }
+
+.ticket-container{
+  width: 85%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 2fr 1fr;
+  grid-template-areas: "a b"
+                       "a c";
+
+}
+.movie-info{
+  grid-area: b;
+}
+.picture{
+  grid-area: a;
+}
+
+.buy-ticket{
+  grid-area: c;
+}
+.picture img{
+  height: 100%;
+}
+
+
 
   .avatar-img{
     margin-right: 2px;
