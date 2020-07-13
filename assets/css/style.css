@@ -402,6 +402,7 @@ body {
 }
 .movie-info{
   grid-area: b;
+  font-size: 5rem;
 }
 .picture{
   grid-area: a;
@@ -409,6 +410,8 @@ body {
 
 .buy-ticket{
   grid-area: c;
+  font-size: 9px;
+
 }
 .picture img{
   height: 100%;
