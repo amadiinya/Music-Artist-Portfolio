@@ -268,7 +268,7 @@ body {
 
 .nav-link-css {
   font-weight: 500;
-  color: #000 !important;
+  color: #fff !important;
   border-radius: 5px;
   -webkit-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
