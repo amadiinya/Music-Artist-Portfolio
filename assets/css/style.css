@@ -342,6 +342,38 @@ body {
     color: #000 !important;
   }
 
+  /* Concert Section */
+
+.ticket-container{
+  width: 85%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 2fr 1fr;
+  grid-template-areas: "a b"
+                       "a c";
+
+}
+.movie-info{
+  grid-area: b;
+
+}
+.picture{
+  grid-area: a;
+}
+
+.buy-ticket{
+  grid-area: c;
+ 
+
+}
+.picture img{
+  height: 100%;
+}
+
+
+  /* concert end */
+
+
    .display-mob{
     display: none;
   }
