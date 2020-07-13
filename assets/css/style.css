@@ -108,6 +108,7 @@ form {
 
 .head-text-color{
   color: #E6B034;
+
 }
 
 .upcomig-event{
@@ -342,6 +343,10 @@ body {
     color: #000 !important;
   }
 
+.head-text-color{
+  font-size: 2rem;
+  
+}
   /* Concert Section */
 
 .ticket-container{
@@ -421,6 +426,11 @@ body {
 @media only screen and (max-width: 576px) {
   .jumbotron-btn {
     font-size: 16px !important;
+  }
+
+   .jumbotron-text {
+    font-size: 12px;
+
   }
 
 .ticket-container{
