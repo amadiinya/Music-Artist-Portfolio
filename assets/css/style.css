@@ -20,6 +20,9 @@ Work on This
 
 
 
+.header{
+  margin-bottom: 9rem;
+}
 
 
 .card-border-btn{
@@ -542,13 +545,14 @@ body {
 }
 
 section {
-    padding-top: 9rem;
+    padding-top: 1rem;
     padding-bottom: 0.2rem;
     background-color: #fff;
     color: #000;
     padding-bottom: 1rem;
 
 }
+
 .wrap {
     display: flex;
     background: rgba(196, 196, 196, 0.5);
